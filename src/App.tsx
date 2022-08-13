@@ -33,7 +33,7 @@ function App() {
       <section className='mt-3 container'>
         <div className='d-flex'>
           <div className='flex-grow-1'>
-            <input className='form-control' value={tag} onChange={(event) => setTag(event.target.value) } />
+            <input className='form-control' placeholder="type tag (separate with comma for multiple tags)" value={tag} onChange={(event) => setTag(event.target.value) } />
           </div>
           <div className='ps-3'>
             <button className='btn btn-secondary' onClick={searchHandler}>Search !</button>
